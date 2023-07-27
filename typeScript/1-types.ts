@@ -19,6 +19,7 @@ let variable: any = 42
 variable = 'New String'
 
 // =====
+// Функции
 function sayMyName(name: string): void {  // ничего не возвращает
     console.log(name);
 }
@@ -30,7 +31,6 @@ function throwError(message: string): never {
 
 function infinite(): never {
     while (true) {
-
     }
 }
 
